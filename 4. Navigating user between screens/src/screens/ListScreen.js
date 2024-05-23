@@ -22,7 +22,7 @@ export const ListScreen = () => {
     <View>
       <FlatList
         data={friends}
-        renderItem={({ item, index }) => {
+        renderItem={({ item }) => {
           return (
             <Text style={styles.text} key={item.key}>
               {item.name}
